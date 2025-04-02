@@ -7,10 +7,11 @@ By leveraging meta-learning, we aim to identify the most useful data for buildin
 Through this investigation, we seek to provide insights into creating more robust and adaptable malware detection systems capable of addressing the constantly evolving threat landscape. Our results suggest that, among three popular representations of malware data, the combination of static and dynamic analysis reports is the most helpful in building generalizable models.  
 
 ## Files
-This repository contains three Colab notebooks:
+This repository contains three Colab notebooks for MAML and code for Prototypical Network:
 1. **[MAML_AVAST.ipynb]**: Model-Agnostic Meta-Learning on the AVAST dataset
 2. **[MAML_MaleVis.ipynb]**: Model-Agnostic Meta-Learning on the MaleVis dataset
 3. **[MAML_BODMAS.ipynb]**: Model-Agnostic Meta-Learning on the BODMAS dataset
+4. **Prototypical Network**: Prototypical Network on AVAST dataset. 
 
 ## Citation
 If you use this work, please cite our paper: [IEEE Xplore Link](https://ieeexplore.ieee.org/abstract/document/10825223?casa_token=iRGwNppUkUQAAAAA:Zp8ZU5vekgf3b7eOfHlubwezGB4OAvDskRQnLYjpuGfN977vMXgQ8qwR8YP3dMThLZeYL47LJBo)  
